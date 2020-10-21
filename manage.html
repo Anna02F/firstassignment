@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>3LINX | UC Hub</title>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="3 LINX Unified Commerce" />
+    <meta name="viewport" content="width=1500" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/bootstrap-select.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/elements.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <!--[if gte IE 9]>
+      <style type="text/css">
+        .gradient {
+          filter: none;
+        }
+      </style>
+    <![endif]-->
+
+    <!--Main Scripts-->
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <!--[if lte IE 9]>
+      <script type="text/javascript" src="js/ie/placeholder.js"></script>
+      <script type="text/javascript" src="js/ie/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="container-fluid">
+          <nav class="navbar-default navbar-static-top header-nav">
+            <div class="">
+              <div class="navbar-collapse form-inline">
+                <div class="form-group nav-inner col-sm-6 col-xs-6">
+                  <a href="index.html">
+                    <img
+                      src="images/Logo_Portal.svg"
+                      class="hidden-print"
+                      alt="3LINX Logo"
+                    />
+                    <img
+                      src="images/Logo_Portal_print.svg"
+                      class="visible-print"
+                      alt="3LINX Logo"
+                    />
+                  </a>
+                </div>
+                <div class="nav col-sm-6 col-xs-6 nav-inner form-group">
+                  <div class="form-inline pull-right">
+                    <div class="img-banner-sm form-group">
+                      <img
+                        src="images/userPic/img1.png"
+                        class="profile-image img-circle"
+                        alt="Avatar"
+                      />
+                    </div>
+                    <a href="" class="user-info form-group">
+                      <span class="user-name">Patricia Lane</span>
+                      <span class="user-info-corp">Axis Promotions</span>
+                    </a>
+                    <button class="btn btn-gray transition btn-logout">
+                      Logout
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!--/.nav-collapse -->
+            </div>
+            <!--/.container-fluid -->
+          </nav>
+        </div>
+      </header>
+      <div class="container-main no-space">
+        <div class="main-menu">
+          <div class="col-md-12 no-padding tab-block">
+            <nav>
+              <div class="no-padding" id="bs-example-navbar-collapse-1">
+                <ul class="nav no-float main-nav nav-justified nav-tabs">
+                  <li class="tab-item tab-first">
+                    <a href="dashboard.html"
+                      ><i class="icons icon-dash"></i> Dashboard</a
+                    >
+                  </li>
+                  <li class="tab-item">
+                    <a href=""><i class="icons icon-invent"></i> Inventory</a>
+                  </li>
+                  <li class="tab-item active">
+                    <a href="manage.html"
+                      ><i class="icons icon-orders"></i> Orders</a
+                    >
+                  </li>
+                  <li class="tab-item">
+                    <a href=""
+                      ><i class="icons icon-customers"></i> Customers</a
+                    >
+                  </li>
+                  <li class="tab-item">
+                    <a href=""><i class="icons icon-finance"></i> Finance</a>
+                  </li>
+                  <li class="tab-item tab-last">
+                    <a href=""><i class="icons icon-settings"></i> Settings</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+            </nav>
+          </div>
+        </div>
+        <!--End main Nav-->
+        <div class="sub-menu">
+          <div class="col-md-12 no-padding tab-block">
+            <nav>
+              <ul class="nav no-float main-nav nav-justified">
+                <li class="dropdown drop-item active">
+                  <a
+                    href=""
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-expanded="false"
+                  >
+                    Orders
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="">Action</a></li>
+                    <li><a href="">Another action</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown drop-item">
+                  <a
+                    href=""
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-expanded="false"
+                    >Picking <span class="caret"></span
+                  ></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="">Action</a></li>
+                    <li><a href="">Another action</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown drop-item">
+                  <a
+                    href=""
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-expanded="false"
+                    >Packing <span class="caret"></span
+                  ></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="">Pack Orders</a></li>
+                    <li><a href="">Prepare Pallet</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown drop-item">
+                  <a
+                    href=""
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-expanded="false"
+                    >Routing <span class="caret"></span
+                  ></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="">Action</a></li>
+                    <li><a href="">Another action</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown drop-item">
+                  <a
+                    href=""
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-expanded="false"
+                    >Shipping <span class="caret"></span
+                  ></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="">Action</a></li>
+                    <li><a href="">Another action</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown drop-item">
+                  <a
+                    href=""
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-expanded="false"
+                    >Reports <span class="caret"></span
+                  ></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="">Action</a></li>
+                    <li><a href="">Another action</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown drop-item">
+                  <a
+                    href=""
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-expanded="false"
+                    >USPS Tools <span class="caret"></span
+                  ></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="">Action</a></li>
+                    <li><a href="">Another action</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown drop-item">
+                  <a
+                    href=""
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-expanded="false"
+                    >FedEx Tools <span class="caret"></span
+                  ></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="">Action</a></li>
+                    <li><a href="">Another action</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown drop-item drop-item-last tab-last">
+                  <a
+                    href=""
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-expanded="false"
+                    >POST Tools <span class="caret"></span
+                  ></a>
+                  <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                    <li><a href="">Action</a></li>
+                    <li><a href="">Another action</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!--End sub-nav-->
+        <div class="container-fluid content-mob">
+          <h2 class="header-md sub-header">Manage Orders</h2>
+          <div class="action-block">
+            <div class="col-lg-12 col-md-12 col-xs-12 no-padding form-inline">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-padding">
+                <ol class="breadcrumb gradient">
+                  <li class="breadcrumb-item">
+                    <a href=""
+                      >Orders
+                      <img src="images/icons/breadcrumbs.svg" alt="Arrow"
+                    /></a>
+                  </li>
+                  <li class="breadcrumb-item"><a href="">Manage Orders</a></li>
+                </ol>
+              </div>
+              <div
+                class="col-lg-3 col-md-3 col-sm-3 pull-right no-padding text-right"
+              >
+                <div class="input-group search-block">
+                  <input
+                    type="text"
+                    id="search-table"
+                    class="form-control"
+                    placeholder="Search by Sys #, Order #, etc"
+                  />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default btn-search" type="button">
+                      <i class="icons icon-search"></i>
+                    </button>
+                  </span>
+                </div>
+                <!-- /input-group -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="no-padding msg-container">
+          <nav>
+            <div
+              class="form-inline col-lg-5 col-xs-5 no-padding pull-right option-details text-right"
+            >
+              <label class="record-select"
+                >Per page:
+                <select
+                  id="maxOption5"
+                  class="selectpicker show-menu-arrow form-control"
+                >
+                  <option>25 Records</option>
+                  <option>Another link</option>
+                </select>
+              </label>
+              <div class="form-group pull-right export-el">
+                Export:
+                <button
+                  class="btn icon-export icon-xls"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Export XLS"
+                ></button>
+                <button
+                  class="btn icon-export icon-pdf"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Export PDF"
+                ></button>
+                <button
+                  class="btn icon-export icon-print"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Export Print"
+                ></button>
+              </div>
+            </div>
+            <div class="msg-menu">
+              <ul class="nav nav-tabs no-float">
+                <li role="presentation" class="tab-item tab-first msg-item">
+                  <a href="#inbox">Inbox <span class="msg-count">32</span></a>
+                </li>
+                <li role="presentation" class="tab-item msg-item">
+                  <a href="#onHold"
+                    >On Hold <span class="msg-count">100</span></a
+                  >
+                </li>
+                <li role="presentation" class="tab-item msg-item active">
+                  <a href="#inProcess"
+                    >In Process <span class="msg-count">32</span></a
+                  >
+                </li>
+              </ul>
+              <div class="tab-content container-fluid">
+                <div role="tabpanel" class="tab-pane active" id="inbox">
+                  Aliquip placeat salvia cillum iphone. Seitan aliquip quis
+                  cardigan american apparel, butcher voluptate nisi qui.
+                </div>
+                <div role="tabpanel" class="tab-pane" id="onHold">
+                  Seitan aliquip quis cardigan american apparel, butcher
+                  voluptate nisi qui.
+                </div>
+                <div role="tabpanel" class="tab-pane" id="inProcess">
+                  Cosby sweater eu banh mi, qui irure terry richardson ex squid.
+                  Aliquip placeat salvia cillum iphone. Seitan aliquip quis
+                  cardigan american apparel, butcher voluptate nisi qui.
+                </div>
+              </div>
+            </div>
+          </nav>
+          <!--End Message Block-->
+        </div>
+        <div class="container-fluid">
+          <div class="col-lg-12 col-md-12 col-sm-12 no-padding btn-topspace">
+            <button class="btn btn-green">Create Order</button>
+            <div
+              class="form-inline col-lg-10 col-xs-10 no-padding pull-right text-right"
+            >
+              <select
+                id="maxOption1"
+                class="selectpicker show-menu-arrow form-control"
+              >
+                <option>TOR - Toronto, Canada</option>
+                <option>Another link</option></select
+              ><!--
+                    --><select
+                id="maxOption2"
+                class="selectpicker show-menu-arrow form-control"
+              >
+                <option>TOR - Toronto, Canada</option>
+                <option>Another link</option></select
+              ><!--
+                    --><select
+                id="maxOption3"
+                class="selectpicker show-menu-arrow form-control"
+              >
+                <option>TOR - Toronto, Canada</option>
+                <option>Another link</option>
+              </select>
+              <select
+                id="maxOption4"
+                class="selectpicker show-menu-arrow form-control pull-right"
+              >
+                <option>AXIS - Axis Promotions</option>
+                <option>Another link</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="table-container">
+            <div class="col-12 col-sm-12 col-lg-12 no-padding">
+              <div class="table-responsive">
+                <table id="order-table" class="table table-striped table-hover">
+                  <thead>
+                    <tr>
+                      <th class="no-sorting">
+                        <div class="checkbox checkbox-custom checkbox-primary">
+                          <input id="checkbox2" type="checkbox" />
+                          <label for="checkbox2"> &nbsp; </label>
+                        </div>
+                      </th>
+                      <th class="sorting"><div>Sys #</div></th>
+                      <th class="sorting sorting_desc"><div>Order #</div></th>
+                      <th class="sorting sorting_asc"><div>DC</div></th>
+                      <th class="sorting"><div>Client ID</div></th>
+                      <th class="sorting" style="width: 70px">
+                        <div>Lines</div>
+                      </th>
+                      <th class="sorting" style="width: 70px">
+                        <div>Qty</div>
+                      </th>
+                      <th class="sorting"><div>Ship Method</div></th>
+                      <th class="sorting"><div>Last Update</div></th>
+                      <th class="sorting"><div>Last Update</div></th>
+                      <th class="sorting" style="width: 70px">
+                        <div>Action</div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div class="checkbox checkbox-custom checkbox-primary">
+                          <input id="checkbox3" type="checkbox" checked="" />
+                          <label for="checkbox3"> &nbsp; </label>
+                        </div>
+                      </td>
+                      <td>273120</td>
+                      <td class="order-num">2500001102338</td>
+                      <td>ALN</td>
+                      <td>EWF</td>
+                      <td>1</td>
+                      <td>1</td>
+                      <td>TR3LIN</td>
+                      <td>01.20.2015 by EWFAPI</td>
+                      <td>Committed</td>
+                      <td>
+                        <button class="btn btn-lightgray">
+                          <i class="glyphicon glyphicon-pencil"></i> Edit
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="checkbox checkbox-custom checkbox-primary">
+                          <input id="checkbox4" type="checkbox" />
+                          <label for="checkbox4"> &nbsp; </label>
+                        </div>
+                      </td>
+                      <td>273120</td>
+                      <td class="order-num">
+                        2500001102338 <span class="red-light"></span>
+                      </td>
+                      <td>ALN</td>
+                      <td>EWF</td>
+                      <td>1</td>
+                      <td>1</td>
+                      <td>TR3LIN</td>
+                      <td>01.20.2015 by EWFAPI</td>
+                      <td>Committed</td>
+                      <td>
+                        <button class="btn btn-lightgray">
+                          <i class="glyphicon glyphicon-pencil"></i> Edit
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="checkbox checkbox-custom checkbox-primary">
+                          <input id="checkbox5" type="checkbox" />
+                          <label for="checkbox5"> &nbsp; </label>
+                        </div>
+                      </td>
+                      <td>273120</td>
+                      <td class="order-num">
+                        2500001102338 <span class="green-light"></span>
+                      </td>
+                      <td>ALN</td>
+                      <td>EWF</td>
+                      <td>1</td>
+                      <td>1</td>
+                      <td>TR3LIN</td>
+                      <td>01.20.2015 by EWFAPI</td>
+                      <td>Committed</td>
+                      <td>
+                        <button class="btn btn-lightgray">
+                          <i class="glyphicon glyphicon-pencil"></i> Edit
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="checkbox checkbox-custom checkbox-primary">
+                          <input id="checkbox6" type="checkbox" />
+                          <label for="checkbox6"> &nbsp; </label>
+                        </div>
+                      </td>
+                      <td>273120</td>
+                      <td class="order-num">2500001102338</td>
+                      <td>ALN</td>
+                      <td>EWF</td>
+                      <td>1</td>
+                      <td>1</td>
+                      <td>TR3LIN</td>
+                      <td>01.20.2015 by EWFAPI</td>
+                      <td>Committed</td>
+                      <td>
+                        <button class="btn btn-lightgray">
+                          <i class="glyphicon glyphicon-pencil"></i> Edit
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="checkbox checkbox-custom checkbox-primary">
+                          <input id="checkbox7" type="checkbox" />
+                          <label for="checkbox7"> &nbsp; </label>
+                        </div>
+                      </td>
+                      <td>273120</td>
+                      <td class="order-num">2500001102338</td>
+                      <td>ALN</td>
+                      <td>EWF</td>
+                      <td>1</td>
+                      <td>1</td>
+                      <td>TR3LIN</td>
+                      <td>01.20.2015 by EWFAPI</td>
+                      <td>Committed</td>
+                      <td>
+                        <button class="btn btn-lightgray">
+                          <i class="glyphicon glyphicon-pencil"></i> Edit
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="checkbox checkbox-custom checkbox-primary">
+                          <input id="checkbox8" type="checkbox" />
+                          <label for="checkbox8"> &nbsp; </label>
+                        </div>
+                      </td>
+                      <td>273120</td>
+                      <td class="order-num">2500001102338</td>
+                      <td>ALN</td>
+                      <td>EWF</td>
+                      <td>1</td>
+                      <td>1</td>
+                      <td>TR3LIN</td>
+                      <td>01.20.2015 by EWFAPI</td>
+                      <td>Committed</td>
+                      <td>
+                        <button class="btn btn-lightgray">
+                          <i class="glyphicon glyphicon-pencil"></i> Edit
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="checkbox checkbox-custom checkbox-primary">
+                          <input id="checkbox9" type="checkbox" />
+                          <label for="checkbox9"> &nbsp; </label>
+                        </div>
+                      </td>
+                      <td>273120</td>
+                      <td class="order-num">2500001102338</td>
+                      <td>ALN</td>
+                      <td>EWF</td>
+                      <td>1</td>
+                      <td>1</td>
+                      <td>TR3LIN</td>
+                      <td>01.20.2015 by EWFAPI</td>
+                      <td>Committed</td>
+                      <td>
+                        <button class="btn btn-lightgray">
+                          <i class="glyphicon glyphicon-pencil"></i> Edit
+                        </button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 manage-footer no-padding">
+            <div class="table-actions col-md-6 col-sm-6 col-xs-12 no-padding">
+              <button class="btn btn-lightgray">
+                <i class="icons icon-delete"></i> Delete
+              </button>
+              <button class="btn btn-lightgray">
+                <i class="icons icon-refresh"></i> Re-Push
+              </button>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12 text-right no-padding">
+              <ul class="pagination">
+                <li>
+                  <a href="#"><i class="fa fa-angle-left"></i></a>
+                </li>
+                <li><a href="#" class="current-page">1</a></li>
+                <li>
+                  <a href="#"><i class="fa fa-angle-right"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--End Orders-Header-->
+      </div>
+      <!--End container-main-->
+      <footer class="form-inline no-float footer-bg">
+        <div class="footer-inner container-fluid">
+          <div class="col-md-4 col-xs-4 no-padding">
+            <div class="form-group">
+              &copy; Copyright 2019 3LINX, LLC. All Rights Reserved.
+            </div>
+          </div>
+          <!--
+        -->
+          <div class="col-md-4 col-xs-4 text-center no-padding">
+            <div class="form-group hidden-print">
+              Follow us:
+              <a href="" class="icon-soc transition icon-fb"></a>
+              <a href="" class="icon-soc transition icon-tw"></a>
+              <a href="" class="icon-soc transition icon-utube"></a>
+            </div>
+          </div>
+          <!--
+     -->
+          <div class="col-md-4 col-xs-4 text-right no-padding form-inline">
+            <div class="form-group">
+              <i class="icons icon-contact"></i> Contact Us: 610-391-3100
+              <span class="">|</span>
+            </div>
+            <div class="form-group">
+              <i class="icons icon-email"></i> ops@3linx.com
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script>
+      $(function () {
+        $(".msg-menu a").click(function (e) {
+          e.preventDefault();
+          $(this).tab("show");
+        });
+      });
+    </script>
+  </body>
+</html>

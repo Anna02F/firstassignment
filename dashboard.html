@@ -1,0 +1,1655 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>3LINX | UC Hub</title>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="3 LINX Unified Commerce" />
+    <meta name="viewport" content="width=1500" />
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/bootstrap-select.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/elements.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <!--[if gte IE 9]>
+      <style type="text/css">
+        .gradient {
+          filter: none;
+        }
+      </style>
+    <![endif]-->
+
+    <!--Main Scripts-->
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="js/Chart.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <!--[if lte IE 9]>
+      <script type="text/javascript" src="js/ie/placeholder.js"></script>
+      <script type="text/javascript" src="js/ie/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="container-fluid no-padding">
+          <nav class="navbar-default navbar-static-top header-nav">
+            <div class="navbar-collapse form-inline">
+              <div class="form-group nav-inner col-sm-6 col-xs-6">
+                <a href="index.html">
+                  <img
+                    src="images/Logo_Portal.svg"
+                    class="hidden-print"
+                    alt="3LINX Logo"
+                  />
+                  <img
+                    src="images/Logo_Portal_print.svg"
+                    class="visible-print"
+                    alt="3LINX Logo"
+                  />
+                </a>
+              </div>
+              <div class="nav col-sm-6 col-xs-6 nav-inner form-group">
+                <div class="form-inline pull-right">
+                  <div class="img-banner-sm form-group">
+                    <img
+                      src="images/userPic/img1.png"
+                      class="profile-image img-circle"
+                      alt="Avatar"
+                    />
+                  </div>
+                  <a href="#" class="user-info form-group">
+                    <strong>Patricia Lane</strong>
+                    <span class="user-info-corp">Axis Promotions</span>
+                  </a>
+                  <button class="btn btn-gray transition btn-logout">
+                    Logout
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!--/.nav-collapse -->
+          </nav>
+        </div>
+      </header>
+      <div class="container-main no-space">
+        <div class="main-menu">
+          <div class="col-md-12 no-padding tab-block">
+            <nav>
+              <div class="no-padding" id="bs-example-navbar-collapse-1">
+                <ul class="nav no-float main-nav nav-justified nav-tabs">
+                  <li class="tab-item tab-first active">
+                    <a href="dashboard.html"
+                      ><i class="icons icon-dash"></i> Dashboard</a
+                    >
+                  </li>
+                  <li class="tab-item">
+                    <a href="#"><i class="icons icon-invent"></i> Inventory</a>
+                  </li>
+                  <li class="tab-item">
+                    <a href="manage.html"
+                      ><i class="icons icon-orders"></i> Orders</a
+                    >
+                  </li>
+                  <li class="tab-item">
+                    <a href="#"
+                      ><i class="icons icon-customers"></i> Customers</a
+                    >
+                  </li>
+                  <li class="tab-item">
+                    <a href="#"><i class="icons icon-finance"></i> Finance</a>
+                  </li>
+                  <li class="tab-item tab-last">
+                    <a href="#"><i class="icons icon-settings"></i> Settings</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+            </nav>
+          </div>
+        </div>
+        <!--End main Nav-->
+        <div class="container-fluid no-padding">
+          <div class="profile-head panel panel-default">
+            <div class="form-inline">
+              <a href="#" class="form-group">
+                <img
+                  src="images/compLogos/logo1.png"
+                  class=""
+                  alt="Company Logo"
+                />
+              </a>
+              <div class="img-banner-mid form-group">
+                <img
+                  src="images/userPic/img2.png"
+                  class="profile-image-mid img-circle"
+                  alt="Avatar"
+                />
+              </div>
+              <a href="#" class="head-md-green form-group">
+                <strong>Bienvenida Patricia!</strong>
+              </a>
+            </div>
+          </div>
+          <div class="clearfix">
+            <div class="col-xs-10 no-padding container-left">
+              <div class="table-block">
+                <div class="box-country">
+                  <div class="panel panel-default text-center panel-date">
+                    <div class="panel-heading">
+                      <strong class="head-sm-green">Las Vegas</strong>
+                    </div>
+                    <div class="panel-body">
+                      <span class="pull-right icons icon-sun"></span>
+                      <strong>8:01 PM</strong>
+                      <p class="no-margin count-time">Sat, Feb 28</p>
+                      <p class="no-margin">62&#186;F</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box-country box-night">
+                  <div class="panel panel-default text-center panel-date">
+                    <div class="panel-heading">
+                      <strong class="head-sm-green">Allentown</strong>
+                    </div>
+                    <div class="panel-body">
+                      <span class="pull-right icons icon-moon"></span>
+                      <strong>8:01 PM</strong>
+                      <p class="no-margin count-time">Sat, Feb 28</p>
+                      <p class="no-margin">62&#186;F</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box-country">
+                  <div class="panel panel-default text-center panel-date">
+                    <div class="panel-heading">
+                      <strong class="head-sm-green">Toronto</strong>
+                    </div>
+                    <div class="panel-body">
+                      <span class="pull-right icons icon-sun"></span>
+                      <strong>8:01 PM</strong>
+                      <p class="no-margin count-time">Sat, Feb 28</p>
+                      <p class="no-margin">62&#186;F</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box-country">
+                  <div class="panel panel-default text-center panel-date">
+                    <div class="panel-heading">
+                      <strong class="head-sm-green">London</strong>
+                    </div>
+                    <div class="panel-body">
+                      <span class="pull-right icons icon-sun"></span>
+                      <strong>8:01 PM</strong>
+                      <p class="no-margin count-time">Sat, Feb 28</p>
+                      <p class="no-margin">62&#186;F</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box-country">
+                  <div class="panel panel-default text-center panel-date">
+                    <div class="panel-heading">
+                      <strong class="head-sm-green">Hong Kong</strong>
+                    </div>
+                    <div class="panel-body">
+                      <span class="pull-right icons icon-sun"></span>
+                      <strong>8:01 PM</strong>
+                      <p class="no-margin count-time">Sat, Feb 28</p>
+                      <p class="no-margin">62&#186;F</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 no-padding">
+                <div class="panel panel-default text-left">
+                  <div class="panel-heading">
+                    <strong class="head-sm-green">Reports</strong>
+                  </div>
+                  <div class="panel-body chart-container">
+                    <div class="col-lg-12 form-inline">
+                      <div class="chart-info form-group">
+                        <span class="chart-blue img-circle"></span>
+                        Yesterday
+                      </div>
+                      <div class="chart-info form-group">
+                        <span class="chart-orange img-circle"></span>
+                        Previous Period
+                      </div>
+                    </div>
+                    <div id="canvas-holder2">
+                      <canvas id="chart2" width="450" height="70%" />
+                    </div>
+                    <div id="chartjs-tooltip"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="table-block">
+                <div class="box-data">
+                  <div class="panel panel-default panel-static">
+                    <div class="panel-heading panel-fixed-head form-inline">
+                      <strong
+                        class="head-sm-green form-group col-lg-8 no-float no-padding"
+                        >Products</strong
+                      >
+                      <ul
+                        class="nav nav-tabs choose-tablist form-group pull-right hidden-print"
+                        role="tablist"
+                      >
+                        <li role="presentation" class="active">
+                          <a
+                            href="#graph-prod"
+                            aria-controls="home"
+                            role="tab"
+                            data-toggle="tab"
+                          >
+                            <i class="icons icon-graph"></i>
+                          </a>
+                        </li>
+                        <li role="presentation">
+                          <a
+                            href="#data-prod"
+                            aria-controls="profile"
+                            role="tab"
+                            data-toggle="tab"
+                          >
+                            <i class="icons icon-data"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="panel-body panel-static-bottom">
+                      <div class="tab-content">
+                        <div
+                          role="tabpanel"
+                          class="tab-pane active hidden-print"
+                          id="graph-prod"
+                        >
+                          <div class="order-count">
+                            <div class="table-block">
+                              <span class="order-count-inner">1540 Orders</span>
+                            </div>
+                          </div>
+                          <div
+                            id="canvas-holder"
+                            class="canvas-holder center-block"
+                          >
+                            <canvas id="chart-area" width="100%" height="100" />
+                          </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="data-prod">
+                          <div class="enscroll">
+                            <table class="table table-striped">
+                              <tbody>
+                                <tr>
+                                  <td>John</td>
+                                  <td>0</td>
+                                </tr>
+                                <tr>
+                                  <td>Mary</td>
+                                  <td>123</td>
+                                </tr>
+                                <tr>
+                                  <td>July</td>
+                                  <td>23</td>
+                                </tr>
+                                <tr>
+                                  <td>July</td>
+                                  <td>6</td>
+                                </tr>
+                                <tr>
+                                  <td>July</td>
+                                  <td>6</td>
+                                </tr>
+                                <tr>
+                                  <td>July</td>
+                                  <td>6</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box-data">
+                  <div class="panel panel-default panel-static">
+                    <div class="panel-heading panel-fixed-head form-inline">
+                      <strong
+                        class="head-sm-green form-group col-lg-8 no-float no-padding"
+                        >Inventory</strong
+                      >
+                      <ul
+                        class="nav nav-tabs choose-tablist form-group pull-right hidden-print"
+                        role="tablist"
+                      >
+                        <li role="presentation" class="active">
+                          <a
+                            href="#graph-invent"
+                            aria-controls="home"
+                            role="tab"
+                            data-toggle="tab"
+                          >
+                            <i class="icons icon-graph"></i>
+                          </a>
+                        </li>
+                        <li role="presentation">
+                          <a
+                            href="#data-invent"
+                            aria-controls="profile"
+                            role="tab"
+                            data-toggle="tab"
+                          >
+                            <i class="icons icon-data"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="panel-body panel-static-bottom">
+                      <div class="tab-content">
+                        <div
+                          role="tabpanel"
+                          class="tab-pane active"
+                          id="graph-invent"
+                        >
+                          <div class="order-count">
+                            <div class="table-block">
+                              <span class="order-count-inner">1540 Orders</span>
+                            </div>
+                          </div>
+                          <div
+                            id="canvas-holder1"
+                            class="canvas-holder center-block"
+                          >
+                            <canvas
+                              id="chart-area1"
+                              width="100%"
+                              height="100"
+                            />
+                          </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="data-invent">
+                          <div class="enscroll">
+                            <table class="table table-striped">
+                              <tbody>
+                                <tr>
+                                  <td>John</td>
+                                  <td>0</td>
+                                </tr>
+                                <tr>
+                                  <td>Mary</td>
+                                  <td>123</td>
+                                </tr>
+                                <tr>
+                                  <td>July</td>
+                                  <td>23</td>
+                                </tr>
+                                <tr>
+                                  <td>July</td>
+                                  <td>6</td>
+                                </tr>
+                                <tr>
+                                  <td>July</td>
+                                  <td>6</td>
+                                </tr>
+                                <tr>
+                                  <td>July</td>
+                                  <td>6</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box-data">
+                  <div class="panel panel-default panel-static">
+                    <div class="panel-heading panel-fixed-head form-inline">
+                      <strong
+                        class="head-sm-green form-group col-lg-8 no-float no-padding"
+                        >Orders</strong
+                      >
+                      <ul
+                        class="nav nav-tabs choose-tablist form-group pull-right hidden-print"
+                        role="tablist"
+                      >
+                        <li role="presentation" class="active">
+                          <a
+                            href="#graph-orders"
+                            aria-controls="home"
+                            role="tab"
+                            data-toggle="tab"
+                          >
+                            <i class="icons icon-graph"></i>
+                          </a>
+                        </li>
+                        <li role="presentation">
+                          <a
+                            href="#data-orders"
+                            aria-controls="profile"
+                            role="tab"
+                            data-toggle="tab"
+                          >
+                            <i class="icons icon-data"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="panel-body panel-static-bottom">
+                      <div class="tab-content">
+                        <div
+                          role="tabpanel"
+                          class="tab-pane active"
+                          id="graph-orders"
+                        >
+                          <div class="order-count">
+                            <div class="table-block">
+                              <span class="order-count-inner">1540 Orders</span>
+                            </div>
+                          </div>
+                          <div
+                            id="canvas-holder3"
+                            class="canvas-holder center-block"
+                          >
+                            <canvas
+                              id="chart-area3"
+                              width="100%"
+                              height="100"
+                            />
+                          </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="data-orders">
+                          <div class="enscroll">
+                            <table class="table table-striped">
+                              <tbody>
+                                <tr>
+                                  <td>John</td>
+                                  <td>0</td>
+                                </tr>
+                                <tr>
+                                  <td>Mary</td>
+                                  <td>123</td>
+                                </tr>
+                                <tr>
+                                  <td>July</td>
+                                  <td>23</td>
+                                </tr>
+                                <tr>
+                                  <td>July</td>
+                                  <td>6</td>
+                                </tr>
+                                <tr>
+                                  <td>July</td>
+                                  <td>6</td>
+                                </tr>
+                                <tr>
+                                  <td>July</td>
+                                  <td>6</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box-data">
+                  <div class="panel panel-default panel-static">
+                    <div class="panel-heading panel-fixed-head form-inline">
+                      <strong
+                        class="head-sm-green form-group col-lg-8 no-float no-padding"
+                        >Support</strong
+                      >
+                      <ul
+                        class="nav nav-tabs choose-tablist form-group pull-right hidden-print"
+                        role="tablist"
+                      >
+                        <li role="presentation" class="active">
+                          <a
+                            href="#graph-support"
+                            aria-controls="home"
+                            role="tab"
+                            data-toggle="tab"
+                          >
+                            <i class="icons icon-graph"></i>
+                          </a>
+                        </li>
+                        <li role="presentation">
+                          <a
+                            href="#data-support"
+                            aria-controls="profile"
+                            role="tab"
+                            data-toggle="tab"
+                          >
+                            <i class="icons icon-data"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="panel-body panel-static-bottom">
+                      <div class="tab-content">
+                        <div
+                          role="tabpanel"
+                          class="tab-pane active"
+                          id="graph-support"
+                        >
+                          <div class="order-count">
+                            <div class="table-block">
+                              <span class="order-count-inner">1540 Orders</span>
+                            </div>
+                          </div>
+                          <div
+                            id="canvas-holder4"
+                            class="canvas-holder center-block"
+                          >
+                            <canvas
+                              id="chart-area4"
+                              width="100%"
+                              height="100"
+                            />
+                          </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="data-support">
+                          <div class="enscroll">
+                            <table class="table table-striped">
+                              <tbody>
+                                <tr>
+                                  <td>John</td>
+                                  <td>0</td>
+                                </tr>
+                                <tr>
+                                  <td>Mary</td>
+                                  <td>123</td>
+                                </tr>
+                                <tr>
+                                  <td>July</td>
+                                  <td>23</td>
+                                </tr>
+                                <tr>
+                                  <td>July</td>
+                                  <td>6</td>
+                                </tr>
+                                <tr>
+                                  <td>July</td>
+                                  <td>6</td>
+                                </tr>
+                                <tr>
+                                  <td>July</td>
+                                  <td>6</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 no-padding">
+                <div class="panel panel-default text-left panel-prods">
+                  <div class="panel-heading">
+                    <strong class="head-sm-green">Top Products</strong>
+                  </div>
+                  <div class="panel-body">
+                    <div class="table-block">
+                      <div class="table-cell form-inline">
+                        <div class="prod-banner form-group">
+                          <span class="prod-count"> 1<small>ST</small> </span>
+                          <img
+                            src="images/prodPic/img1.png"
+                            alt=""
+                            class="centered-img"
+                          />
+                        </div>
+                        <div class="form-group info-right">
+                          <p>iPhone 6</p>
+                          <p class="cost">$200k</p>
+                        </div>
+                      </div>
+                      <div class="table-cell form-inline">
+                        <div class="prod-banner form-group">
+                          <span class="prod-count"> 2<small>ST</small> </span>
+                          <img
+                            src="images/prodPic/img1.png"
+                            alt=""
+                            class="centered-img"
+                          />
+                        </div>
+                        <div class="form-group info-right">
+                          <p>iPhone 6</p>
+                          <p class="cost">$200k</p>
+                        </div>
+                      </div>
+                      <div class="table-cell form-inline">
+                        <div class="prod-banner form-group">
+                          <span class="prod-count"> 3<small>ST</small> </span>
+                          <img
+                            src="images/prodPic/img-default.png"
+                            alt=""
+                            class="centered-img"
+                          />
+                        </div>
+                        <div class="form-group info-right">
+                          <p>iPhone 6</p>
+                          <p class="cost">$200k</p>
+                        </div>
+                      </div>
+                      <div class="table-cell form-inline">
+                        <div class="prod-banner form-group">
+                          <span class="prod-count"> 4<small>ST</small> </span>
+                          <img
+                            src="images/prodPic/img1.png"
+                            alt=""
+                            class="centered-img"
+                          />
+                        </div>
+                        <div class="form-group info-right">
+                          <p>iPhone 6</p>
+                          <p class="cost">$200k</p>
+                        </div>
+                      </div>
+                      <div class="table-cell form-inline">
+                        <div class="prod-banner form-group">
+                          <span class="prod-count"> 5<small>ST</small> </span>
+                          <img
+                            src="images/prodPic/img1.png"
+                            alt=""
+                            class="centered-img"
+                          />
+                        </div>
+                        <div class="form-group info-right">
+                          <p>iPhone 6</p>
+                          <p class="cost">$200k</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 no-padding">
+                <div class="panel panel-default text-left panel-activity">
+                  <div class="panel-heading">
+                    <strong class="head-sm-green">Activity Stream</strong>
+                  </div>
+                  <div class="panel-body no-padding">
+                    <div class="enscroll">
+                      <table class="table table-striped">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-invent"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-orders"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-invent"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-orders"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-invent"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-orders"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-invent"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-orders"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-invent"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-orders"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-invent"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-orders"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-invent"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-orders"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-invent"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-orders"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-invent"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-orders"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-invent"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-orders"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-invent"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-orders"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-invent"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-orders"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-invent"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-orders"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-invent"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-orders"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-invent"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-orders"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-invent"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-orders"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-invent"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span class="icon-container">
+                                <i class="icons icon-orders"></i>
+                              </span>
+                            </td>
+                            <td>
+                              Order # 12345 was shipped. Tracking # 1234456778
+                              <span class="txt-muted"
+                                >- LAB / Allentown, PA
+                              </span>
+                            </td>
+                            <td class="txt-muted">Sat, Feb 28 10:30am</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-2 no-padding container-right pull-right">
+              <div class="col-xs-12 no-padding">
+                <div
+                  class="panel panel-default text-center panel-date panel-help"
+                >
+                  <div class="panel-heading help-block-header">
+                    <strong class="head-sm-green">How may I help you?</strong>
+                  </div>
+                  <div class="panel-body">
+                    <div class="img-banner-lg center-block">
+                      <img
+                        src="images/userPic/img3.png"
+                        class="img-circle help-img-lg"
+                      />
+                    </div>
+                    <strong class="helper-name">Sara Ward</strong>
+                    <p class="no-margin">Account Manager</p>
+                    <p class="no-margin">10:01 am PST</p>
+                    <div class="form-inline text-left help-info">
+                      <i class="icons icon-phone-green"></i>
+                      <div class="form-group help-info-txt">
+                        <strong>Telephone:</strong>
+                        <p class="no-margin">300 - 7033460</p>
+                      </div>
+                    </div>
+                    <div class="form-inline text-left help-info">
+                      <i class="icons icon-email-green"></i>
+                      <div class="form-group help-info-txt">
+                        <strong>Email:</strong>
+                        <p class="no-margin">sara.ward@3linx.com</p>
+                      </div>
+                    </div>
+                    <button class="btn btn-green btn-support">
+                      Get Support
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 no-padding">
+                <div
+                  class="panel panel-default text-center panel-date panel-help"
+                >
+                  <div class="panel-heading help-block-header">
+                    <strong class="head-sm-green">Holidays 2015</strong>
+                  </div>
+                  <div class="panel-body enscroll">
+                    <div class="holiday-info form-inline text-left">
+                      <div class="holiday-month form-group text-center">
+                        APR
+                        <span class="holiday-date"> 5 </span>
+                      </div>
+                      <div class="form-group holiday-txt">
+                        <strong> Good Friday</strong>
+                        <p class="no-margin">HON, SYD</p>
+                      </div>
+                    </div>
+                    <div class="holiday-info form-inline text-left">
+                      <div class="holiday-month form-group text-center">
+                        APR
+                        <span class="holiday-date"> 5 </span>
+                      </div>
+                      <div class="form-group holiday-txt">
+                        <strong> Good Friday</strong>
+                        <p class="no-margin">HON, SYD</p>
+                      </div>
+                    </div>
+                    <div class="holiday-info form-inline text-left">
+                      <div class="holiday-month form-group text-center">
+                        APR
+                        <span class="holiday-date"> 5 </span>
+                      </div>
+                      <div class="form-group holiday-txt">
+                        <strong> Good Friday</strong>
+                        <p class="no-margin">HON, SYD, HON, SYD</p>
+                      </div>
+                    </div>
+                    <div class="holiday-info form-inline text-left">
+                      <div class="holiday-month form-group text-center">
+                        APR
+                        <span class="holiday-date"> 5 </span>
+                      </div>
+                      <div class="form-group holiday-txt">
+                        <strong> Good Friday</strong>
+                        <p class="no-margin">HON, SYD</p>
+                      </div>
+                    </div>
+                    <div class="holiday-info form-inline text-left">
+                      <div class="holiday-month form-group text-center">
+                        APR
+                        <span class="holiday-date"> 5 </span>
+                      </div>
+                      <div class="form-group holiday-txt">
+                        <strong> Good Friday</strong>
+                        <p class="no-margin">HON, SYD</p>
+                      </div>
+                    </div>
+                    <div class="holiday-info form-inline text-left">
+                      <div class="holiday-month form-group text-center">
+                        APR
+                        <span class="holiday-date"> 5 </span>
+                      </div>
+                      <div class="form-group holiday-txt">
+                        <strong> Good Friday</strong>
+                        <p class="no-margin">HON, SYD</p>
+                      </div>
+                    </div>
+                    <div class="holiday-info form-inline text-left">
+                      <div class="holiday-month form-group text-center">
+                        APR
+                        <span class="holiday-date"> 5 </span>
+                      </div>
+                      <div class="form-group holiday-txt">
+                        <strong> Good Friday</strong>
+                        <p class="no-margin">HON, SYD</p>
+                      </div>
+                    </div>
+                    <div class="holiday-info form-inline text-left">
+                      <div class="holiday-month form-group text-center">
+                        APR
+                        <span class="holiday-date"> 5 </span>
+                      </div>
+                      <div class="form-group holiday-txt">
+                        <strong> Good Friday</strong>
+                        <p class="no-margin">HON, SYD</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 no-padding">
+                <div
+                  class="panel panel-default text-center panel-date panel-help"
+                >
+                  <div class="panel-heading help-block-header">
+                    <strong class="head-sm-green">3LINX Locations</strong>
+                  </div>
+                  <div class="panel-body enscroll-lg">
+                    <div class="holiday-info form-inline text-left">
+                      <div class="marker form-group text-center hidden-print">
+                        <img src="images/marker.png" alt="marker" />
+                      </div>
+                      <div class="form-group holiday-txt locations">
+                        <span class="txt-green">New York Office</span>
+                        <span>390 Fifth Ave, Suite 910 New York, NY 10016</span>
+                        <p class="no-margin">
+                          Receiving Hours: 9:00 am to 3:00 pm
+                        </p>
+                        <p class="no-margin">
+                          Pickup Hours: 2:00 pm to 5:00 pm
+                        </p>
+                      </div>
+                    </div>
+                    <div class="holiday-info form-inline text-left">
+                      <div class="marker form-group text-center hidden-print">
+                        <img src="images/marker.png" alt="marker" />
+                      </div>
+                      <div class="form-group holiday-txt locations">
+                        <span class="txt-green">New York Office</span>
+                        <span>390 Fifth Ave, Suite 910 New York, NY 10016</span>
+                        <p class="no-margin">
+                          Receiving Hours: 9:00 am to 3:00 pm
+                        </p>
+                        <p class="no-margin">
+                          Pickup Hours: 2:00 pm to 5:00 pm
+                        </p>
+                      </div>
+                    </div>
+                    <div class="holiday-info form-inline text-left">
+                      <div class="marker form-group text-center hidden-print">
+                        <img src="images/marker.png" alt="marker" />
+                      </div>
+                      <div class="form-group holiday-txt locations">
+                        <span class="txt-green">New York Office</span>
+                        <span>390 Fifth Ave, Suite 910 New York, NY 10016</span>
+                        <p class="no-margin">
+                          Receiving Hours: 9:00 am to 3:00 pm
+                        </p>
+                        <p class="no-margin">
+                          Pickup Hours: 2:00 pm to 5:00 pm
+                        </p>
+                      </div>
+                    </div>
+                    <div class="holiday-info form-inline text-left">
+                      <div class="marker form-group text-center hidden-print">
+                        <img src="images/marker.png" alt="marker" />
+                      </div>
+                      <div class="form-group holiday-txt locations">
+                        <span class="txt-green">New York Office</span>
+                        <span>390 Fifth Ave, Suite 910 New York, NY 10016</span>
+                        <p class="no-margin">
+                          Receiving Hours: 9:00 am to 3:00 pm
+                        </p>
+                        <p class="no-margin">
+                          Pickup Hours: 2:00 pm to 5:00 pm
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--End Container-->
+      </div>
+      <!--End container-main-->
+      <footer class="form-inline no-float footer-bg">
+        <div class="footer-inner container-fluid no-padding">
+          <div class="col-md-4 col-sm-4 col-xs-12 no-padding">
+            <div class="form-group">
+              &copy; Copyright 2019 3LINX, LLC. All Rights Reserved.
+            </div>
+          </div>
+          <!--
+        -->
+          <div class="col-md-4 col-sm-4 col-xs-12 text-center no-padding">
+            <div class="form-group">
+              Follow us:
+              <a href="" class="icon-soc transition icon-fb"></a>
+              <a href="" class="icon-soc transition icon-tw"></a>
+              <a href="" class="icon-soc transition icon-utube"></a>
+            </div>
+          </div>
+          <!--
+    -->
+          <div
+            class="col-md-4 col-sm-4 col-xs-12 text-right no-padding form-inline"
+          >
+            <div class="form-group">
+              <i class="icons icon-contact"></i> Contact Us: 610-391-3100
+              <span class="hidden-sm hidden-xs">|</span>
+            </div>
+            <div class="form-group">
+              <i class="icons icon-email"></i> ops@3linx.com
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript">
+      //Script for Line Chart
+      Chart.defaults.global.pointHitDetectionRadius = 1;
+
+      var randomScalingFactor = function () {
+        return Math.round(Math.random() * 100);
+      };
+      var lineChartData = {
+        labels: ["4:00 AM", "8:00 AM", "8:00 AM", "4:00 AM"],
+        datasets: [
+          {
+            label: "My First dataset",
+            fillColor: "rgba(230,162,75,0.1)",
+            strokeColor: "#e6a24b",
+            pointColor: "#fff",
+            pointStrokeColor: "#e6a24b",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+            data: [0, 5, 10, 15, 20],
+          },
+          {
+            label: "My Second dataset",
+            fillColor: "rgba(58,165,76,0.1)",
+            strokeColor: "rgba(96,197,201,1)",
+            pointColor: "#fff",
+            pointStrokeColor: "#60c5c9",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(151,187,205,1)",
+            data: [1, 2, 6, 8, 10, 12, 13, 15, 17, 18, 19],
+          },
+        ],
+      };
+
+      //Tabs
+      $(".choose-tablist a").click(function (e) {
+        e.preventDefault();
+        $(this).tab("show");
+      });
+
+      //Doughnut Chart
+      var doughnutData = [
+        {
+          value: 130,
+          color: "#70bb6e",
+          highlight: "#7ccd79",
+          label: "Green",
+        },
+        {
+          value: 70,
+          color: "#339d45",
+          highlight: "#3eba53",
+          label: "GreenDark",
+        },
+        {
+          value: 120,
+          color: "#395272",
+          highlight: "#46648b",
+          label: "BlueDark",
+        },
+        {
+          value: 80,
+          color: "#337fb4",
+          highlight: "#3d95d2",
+          label: "BlueLight",
+        },
+        {
+          value: 90,
+          color: "#5bc6d3",
+          highlight: "#64dae8",
+          label: "BlueSky",
+        },
+      ];
+
+      //Doughnut Chart1
+      var doughnutData1 = [
+        {
+          value: 130,
+          color: "#70bb6e",
+          highlight: "#7ccd79",
+          label: "Green",
+        },
+        {
+          value: 70,
+          color: "#339d45",
+          highlight: "#3eba53",
+          label: "GreenDark",
+        },
+        {
+          value: 120,
+          color: "#395272",
+          highlight: "#46648b",
+          label: "BlueDark",
+        },
+        {
+          value: 80,
+          color: "#337fb4",
+          highlight: "#3d95d2",
+          label: "BlueLight",
+        },
+        {
+          value: 90,
+          color: "#5bc6d3",
+          highlight: "#64dae8",
+          label: "BlueSky",
+        },
+      ];
+      //Doughnut Chart3
+      var doughnutData3 = [
+        {
+          value: 130,
+          color: "#70bb6e",
+          highlight: "#7ccd79",
+          label: "Green",
+        },
+        {
+          value: 70,
+          color: "#339d45",
+          highlight: "#3eba53",
+          label: "GreenDark",
+        },
+        {
+          value: 120,
+          color: "#395272",
+          highlight: "#46648b",
+          label: "BlueDark",
+        },
+        {
+          value: 80,
+          color: "#337fb4",
+          highlight: "#3d95d2",
+          label: "BlueLight",
+        },
+        {
+          value: 90,
+          color: "#5bc6d3",
+          highlight: "#64dae8",
+          label: "BlueSky",
+        },
+      ];
+      //Doughnut Chart4
+      var doughnutData4 = [
+        {
+          value: 130,
+          color: "#70bb6e",
+          highlight: "#7ccd79",
+          label: "Green",
+        },
+        {
+          value: 70,
+          color: "#339d45",
+          highlight: "#3eba53",
+          label: "GreenDark",
+        },
+        {
+          value: 120,
+          color: "#395272",
+          highlight: "#46648b",
+          label: "BlueDark",
+        },
+        {
+          value: 80,
+          color: "#337fb4",
+          highlight: "#3d95d2",
+          label: "BlueLight",
+        },
+        {
+          value: 90,
+          color: "#5bc6d3",
+          highlight: "#64dae8",
+          label: "BlueSky",
+        },
+      ];
+      window.onload = function () {
+        var ctx2 = document.getElementById("chart2").getContext("2d");
+        window.myLine = new Chart(ctx2).Line(lineChartData, {
+          responsive: true,
+          scaleShowVerticalLines: false,
+          bezierCurve: false,
+          pointDotStrokeWidth: 3,
+        });
+
+        var ctx = document.getElementById("chart-area").getContext("2d");
+        window.myDoughnut = new Chart(ctx).Doughnut(doughnutData, {
+          responsive: true,
+          animationEasing: "easeInOutQuad",
+          animationSteps: 30,
+        });
+        var ctx1 = document.getElementById("chart-area1").getContext("2d");
+        window.myDoughnut = new Chart(ctx1).Doughnut(doughnutData1, {
+          responsive: true,
+          animationEasing: "easeInOutQuad",
+          animationSteps: 30,
+        });
+        var ctx3 = document.getElementById("chart-area3").getContext("2d");
+        window.myDoughnut = new Chart(ctx3).Doughnut(doughnutData3, {
+          responsive: true,
+          animationEasing: "easeInOutQuad",
+          animationSteps: 30,
+        });
+        var ctx4 = document.getElementById("chart-area4").getContext("2d");
+        window.myDoughnut = new Chart(ctx4).Doughnut(doughnutData4, {
+          responsive: true,
+          animationEasing: "easeInOutQuad",
+          animationSteps: 30,
+        });
+      };
+
+      //Table Scrollbar
+
+      $(document).ready(function () {
+        $('a[data-toggle="tab"]').click(function () {
+          $(this).closest(".panel").find(".panel-body").niceScroll({
+            cursorcolor: "#000000",
+            cursorwidth: 10,
+            cursoropacitymin: 0.1,
+            cursoropacitymax: 0.1,
+          });
+
+          if ($(this).attr("aria-controls") == "profile") {
+            $(this)
+              .closest(".panel")
+              .find(".panel-body")
+              .getNiceScroll()
+              .show();
+          } else {
+            $(this)
+              .closest(".panel")
+              .find(".panel-body")
+              .getNiceScroll()
+              .hide();
+          }
+        });
+        $(".enscroll,.enscroll-lg").niceScroll({
+          cursorcolor: "#000000",
+          cursorwidth: 10,
+          cursoropacitymin: 0.1,
+          cursoropacitymax: 0.1,
+        });
+      });
+    </script>
+  </body>
+</html>

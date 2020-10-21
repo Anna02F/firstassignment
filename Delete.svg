@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="14px" height="16px" viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Delete</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Icons" sketch:type="MSArtboardGroup" transform="translate(-380.000000, -238.000000)" fill="#979797">
+            <path d="M383,253 L383,242 L391,242 L391,242 L391,253 L383,253 Z M383,254 L382.5,254 C382.223858,254 382,253.774361 382,253.506259 L382,242 L380,242 L380,241 L384,241 L384,238.490479 C384,238.215057 384.223858,238 384.5,238 L385,238 L385,241 L389,241 L389,241 L389,238 L389.5,238 C389.776142,238 390,238.215057 390,238.490479 L390,241 L394,241 L394,242 L392,242 L392,253.506259 C392,253.778945 391.768066,254 391.5,254 L391,254 L383,254 Z M385,238 L389,238 L389,239 L385,239 L385,238 Z M385,244 L386,244 L386,251 L385,251 L385,244 Z M388,244 L389,244 L389,251 L388,251 L388,244 Z" id="Delete" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
